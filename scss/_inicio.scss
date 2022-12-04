@@ -1,0 +1,95 @@
+/* Parte del Index desktop  */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+h1 {
+
+
+  color: $h1-color;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+h1 {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+h2 {
+
+  color: $h2-color;
+}
+
+h3 {
+  color: $h3-color;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+
+  }
+
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.video-escuela {
+  @include sizes (800px, 600px);
+
+}
+
+
+
+
+
+.grid div {
+
+  @include border(solid, 2px, rgb(245, 245, 245));
+}
+
+.item1{
+  .establecimiento {
+  @include sizes (400px, 400px)
+}
+}
+
+.item2 {
+  background-image: $bg-item;
+}
+
+.item3 {
+  background-image: $bg-item;
+}
+
+
+/*Inicio para dispositivos medianos */
+
+@media screen and (max-width:$pantalla-mediana) {
+  .video-escuela {
+    @include sizes (400px, 300px);
+
+  }
+}
+
+/*Inicio dispositivos pequeños*/
+@media screen and (max-width:$pantalla-mobile) {
+  .video-escuela {
+    @include sizes (350px, 300px);
+
+  }
+
+}
