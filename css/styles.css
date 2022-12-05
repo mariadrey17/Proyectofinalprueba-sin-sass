@@ -1,18 +1,365 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |         @if $fiestas==pascuas {
- *   |             ^^^^^^^^
- *   '
- *   scss\_header.scss 8:13  @import
- *   scss\styles.scss 4:9    root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502          @if $fiestas==pascuas {\d\a   \2502              ^^^^^^^^\a   \2575 \a   scss\\_header.scss 8:13  @import\a   scss\\styles.scss 4:9    root stylesheet";
+@charset "UTF-8";
+/*mixin*/
+/*mixin sizes*/
+/*condicional*/
+/*separacion operaciones*/
+/*extends*/
+.botones-generales, .card-muestra {
+  padding: 1rem;
+  margin-bottom: 5rem;
 }
+
+p {
+  font-size: 1.5rem;
+}
+
+.nav-item :hover {
+  color: rgb(252, 69, 99);
+  animation-duration: 4s;
+}
+
+.data-aos {
+  animation-duration: 12s;
+}
+
+.nav-item {
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #5E646B;
+}
+
+footer {
+  color: rgb(230, 230, 174);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(211, 100, 118);
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    background-color: rgb(104, 61, 68);
+  }
+}
+header {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../img/fondo.jpg);
+}
+
+.nav-item :hover {
+  color: rgb(252, 69, 99);
+}
+
+.data-aos {
+  animation-duration: 10s;
+}
+
+.nav-item {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Parte del Index desktop  */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #F7F4D5;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+h2 {
+  color: #F2CBD0;
+}
+
+h3 {
+  color: #F2EFD0;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.video-escuela {
+  width: 800px;
+  height: 600px;
+}
+
+.grid div {
+  border: solid 2px rgb(245, 245, 245);
+}
+
+.item1 .establecimiento {
+  width: 400px;
+  height: 400px;
+}
+
+.item2 {
+  background-image: linear-gradient(to left, #CCCCEB, #EBB6BA, #F05677);
+}
+
+.item3 {
+  background-image: linear-gradient(to left, #CCCCEB, #EBB6BA, #F05677);
+}
+
+/*Inicio para dispositivos medianos */
+@media screen and (max-width: 768px) {
+  .video-escuela {
+    width: 400px;
+    height: 300px;
+  }
+}
+/*Inicio dispositivos pequeños*/
+@media screen and (max-width: 460px) {
+  .video-escuela {
+    width: 350px;
+    height: 300px;
+  }
+}
+/*empieza clases*/
+table {
+  color: antiquewhite;
+}
+
+#lista-desordenada {
+  color: aliceblue;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+ol {
+  color: aliceblue;
+}
+
+.container-table {
+  border: solid 1px blanchedalmond;
+  width: 622px;
+  height: 1380px;
+}
+
+.container-table {
+  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+}
+
+/*clases para media query pequeños*/
+@media screen and (max-width: 460px) {
+  .foto-clase {
+    width: 300px;
+  }
+  .container-table {
+    border: solid 1px blanchedalmond;
+    width: 25rem;
+    height: 89rem;
+  }
+}
+/*empieza clases*/
+.tituloclases {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 22ch;
+  animation: typing 8s steps(22), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.titulomascursos {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 12ch;
+  animation: typing 10s steps(12), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.titulodisciplinas {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 44ch;
+  animation: typing 12s steps(44), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.titulootroscursos {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  animation: typing 14s steps(23), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.tituloclasesonline {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 24ch;
+  animation: typing 18s steps(24), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.tituloaranceles {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 10ch;
+  animation: typing 22s steps(10), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+table {
+  color: antiquewhite;
+}
+
+#lista-desordenada {
+  color: aliceblue;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+ol {
+  color: aliceblue;
+}
+
+.container-table {
+  border: solid 1px blanchedalmond;
+  width: 622px;
+  height: 1380px;
+}
+
+.container-table {
+  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+}
+
+/*clases para media query pequeños*/
+@media screen and (max-width: 460px) {
+  .foto-clase {
+    width: 300px;
+  }
+  .container-table {
+    border: solid 1px blanchedalmond;
+    width: 18rem;
+    height: 89rem;
+  }
+}
+/*acá empieza Muestras */
+.grilla {
+  display: grid;
+}
+
+.Item5 {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to left, #CCCCEB, #EBB6BA, #F05677);
+}
+
+.galeria {
+  /*puedo hacer algo con grid en galeria*/
+  display: flex;
+  flex-direction: column;
+  width: 536px;
+  height: 363px;
+}
+
+.h2tienda {
+  margin-right: 5rem;
+}
+
+.caja-tienda {
+  width: 441px;
+  height: 1640px;
+}
+
+/* media querie para dispositivos moviles medianos muestras*/
+@media screen and (max-width: 768px) {
+  .galeria {
+    width: 348px;
+  }
+}
+/*media querie para dispositivos pequeños muestras  */
+/*tienda*/
+@media screen and (max-width: 460px) {
+  .h2tienda {
+    margin-right: 1rem;
+  }
+  .tienda {
+    width: 318px;
+    height: 2000px;
+    margin-top: 10px;
+  }
+  .card-muestra {
+    width: 200px;
+    height: 469px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+  .caja-tienda {
+    width: 318px;
+    height: 1758px;
+  }
+  .caja-art {
+    width: 330px;
+    height: 1616px;
+  }
+  .galeria {
+    width: 105px;
+    height: 106px;
+  }
+  .card-foto {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

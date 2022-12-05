@@ -5,15 +5,15 @@
         background-attachment:fixed;
         background-repeat:no-repeat ;
         
-        @if $fiestas==pascuas {
+        @if $fiesta==pascuas {
             background-image: url(../img/pascuas.jpg);
     
         }
         
-            @else if $fiestas==padre {
+            @else if $fiesta==padre {
                 background-image: url(../img/fatherday.jpg);
                 height: 50rem;
-            }@else if $fiestas==navidad{
+            }@else if $fiesta==navidad{
                 background-image:url(../img/navidad.webp);
                 height: 50rem;}
             @else  {
