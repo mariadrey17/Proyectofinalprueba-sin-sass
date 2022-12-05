@@ -1,0 +1,46 @@
+/*empieza clases*/
+
+table {
+    color: antiquewhite;
+  }
+  
+  
+  #lista-desordenada {
+    color: aliceblue;
+    margin-bottom: 100px;
+    font-weight: bold;
+  }
+  
+  ol {
+    color: aliceblue;
+  }
+  
+  
+  .container-table {
+    border: solid 1px blanchedalmond;
+    @include sizes (622px, 1380px);
+  
+  }
+  
+  .container-table {
+    background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+  
+  
+  
+  }
+  
+  
+  /*clases para media query pequeños*/
+  
+  @media screen and (max-width:$pantalla-mobile) {
+    .foto-clase {
+      width: 300px;
+    }
+  
+    .container-table {
+      border: solid 1px blanchedalmond;
+  
+      @include sizes (25rem, 89rem);
+    }
+  
+  }
