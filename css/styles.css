@@ -19,7 +19,7 @@ p {
 }
 
 .data-aos {
-  animation-duration: 12s;
+  animation-duration: 14s;
 }
 
 .nav-item {
@@ -153,27 +153,27 @@ h3 {
 }
 /*empieza clases*/
 table {
-  color: antiquewhite;
+  color: #E9DFCB;
 }
 
 #lista-desordenada {
-  color: aliceblue;
+  color: #FBFAFF;
   margin-bottom: 100px;
   font-weight: bold;
 }
 
 ol {
-  color: aliceblue;
+  color: #FBFAFF;
 }
 
 .container-table {
-  border: solid 1px blanchedalmond;
+  border: solid 1px #E9DFCB;
   width: 622px;
   height: 1380px;
 }
 
 .container-table {
-  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+  background-image: linear-gradient(to right, #3D4045, #E6678E);
 }
 
 /*clases para media query pequeños*/
@@ -182,7 +182,7 @@ ol {
     width: 300px;
   }
   .container-table {
-    border: solid 1px blanchedalmond;
+    border: solid 1px #E9DFCB;
     width: 25rem;
     height: 89rem;
   }

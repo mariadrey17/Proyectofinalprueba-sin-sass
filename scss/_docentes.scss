@@ -1,29 +1,29 @@
 /*empieza clases*/
 
 table {
-    color: antiquewhite;
+    color:#E9DFCB ;
   }
   
   
   #lista-desordenada {
-    color: aliceblue;
+    color:#FBFAFF ;
     margin-bottom: 100px;
     font-weight: bold;
   }
   
   ol {
-    color: aliceblue;
+    color:#FBFAFF ;
   }
   
   
   .container-table {
-    border: solid 1px blanchedalmond;
+    border: solid 1px #E9DFCB ;
     @include sizes (622px, 1380px);
   
   }
   
   .container-table {
-    background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+    background-image: linear-gradient(to right,#3D4045 ,#E6678E );
   
   
   
@@ -38,7 +38,7 @@ table {
     }
   
     .container-table {
-      border: solid 1px blanchedalmond;
+      border: solid 1px #E9DFCB;
   
       @include sizes (25rem, 89rem);
     }
