@@ -1,0 +1,117 @@
+/*empieza clases*/
+
+.tituloclases {
+  display: block;
+  font-family:monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width:22ch;
+  animation:typing 8s steps(22), blink .5s infinite step-end alternate;
+  overflow: hidden;
+ }
+  
+  @keyframes typing {
+    from {width: 0}
+
+  }
+  @keyframes blink{
+    50% {border-color: transparent}
+
+  }
+
+  .titulomascursos {
+    display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:12ch;
+    animation:typing 10s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden;
+  }
+
+  .titulodisciplinas {  
+    display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:44ch;
+    animation:typing 12s steps(44), blink .5s infinite step-end alternate;
+    overflow: hidden;
+
+  }
+  .titulootroscursos {
+    display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:23ch;
+    animation:typing 14s steps(23), blink .5s infinite step-end alternate;
+    overflow: hidden;
+
+  }
+  .tituloclasesonline {
+    display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:24ch;
+    animation:typing 18s steps(24), blink .5s infinite step-end alternate;
+    overflow: hidden;
+ }
+
+ .tituloaranceles {
+  display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:10ch;
+    animation:typing 22s steps(10), blink .5s infinite step-end alternate;
+    overflow: hidden;
+ }
+  
+
+
+table {
+  color: antiquewhite;
+}
+
+
+#lista-desordenada {
+  color: aliceblue;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+ol {
+  color: aliceblue;
+}
+
+
+.container-table {
+  border: solid 1px blanchedalmond;
+  @include sizes (622px, 1380px);
+
+}
+
+.container-table {
+  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+
+
+
+}
+
+
+/*clases para media query pequeños*/
+
+@media screen and (max-width:$pantalla-mobile) {
+  .foto-clase {
+    width: 300px;
+  }
+
+  .container-table {
+    border: solid 1px blanchedalmond;
+
+    @include sizes (18rem, 89rem);
+  }
+
+}
