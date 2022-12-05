@@ -1,0 +1,109 @@
+/*acá empieza Muestras */
+
+.grilla {
+    display: grid;
+  
+  }
+  
+  
+  
+  
+  
+  .Item5 {
+    display: flex;
+    justify-content: center;
+    background-image: $bg-item;
+  }
+  
+  .galeria {
+    /*puedo hacer algo con grid en galeria*/
+    @include flex-column;
+  
+  
+    width: 536px;
+    height: 363px;
+  }
+    
+  .h2tienda {
+    margin-right:5rem ;
+  }
+
+
+  .caja-tienda {
+    @include sizes (441px,1640px );
+
+  }
+
+  .card-muestra {
+    @extend.botones-generales;
+  
+  }
+  
+  /* media querie para dispositivos moviles medianos muestras*/
+  
+  @media screen and (max-width :$pantalla-mediana) {
+    .galeria {
+  
+      width: 348px;
+  
+  
+    }
+  
+  
+  
+  }
+  
+  
+  
+  
+  /*media querie para dispositivos pequeños muestras  */
+  
+  /*tienda*/
+  @media screen and (max-width: $pantalla-mobile) {
+  
+    .h2tienda {
+      margin-right:1rem ;
+    }
+  
+    .tienda {
+  
+      @include sizes (318px, 2000px);
+  
+      margin-top: 10px;
+
+  
+    }
+  
+    .card-muestra {
+      @include sizes (200px,469px);
+  
+      padding: 1rem;
+      margin-bottom: 5rem;
+  
+    }
+  
+    .caja-tienda {
+      @include sizes (318px, 1758px);
+  
+    }
+
+    .caja-art {
+      @include sizes (330px, 1616px)
+    }
+  
+  
+  
+    .galeria {
+      width: 105px;
+      height: 106px;
+  
+  
+    }
+  
+  
+    .card-foto {
+      width: 50px;
+      height: 50px;
+    }
+  
+  }
