@@ -305,6 +305,12 @@ ol {
     width: 20rem;
     height: 98rem;
   }
+  .titulodisciplinas {
+    font-size: 1rem;
+  }
+  .tituloclasesonline {
+    font-size: 1rem;
+  }
 }
 /*acá empieza Muestras */
 .grilla {
