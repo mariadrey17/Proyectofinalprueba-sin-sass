@@ -272,6 +272,10 @@ ol {
   color: aliceblue;
 }
 
+.tablachica {
+  width: 1400px;
+}
+
 .container-table {
   border: solid 1px blanchedalmond;
   width: 622px;
@@ -282,15 +286,24 @@ ol {
   background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
 }
 
+/*Clases para dispositivos medianos*/
+@media screen and (max-width: 768px) {
+  .tablachica {
+    width: 516px;
+  }
+}
 /*clases para media query pequeños*/
 @media screen and (max-width: 460px) {
   .foto-clase {
     width: 300px;
   }
+  .tablachica {
+    width: 380px;
+  }
   .container-table {
     border: solid 1px blanchedalmond;
-    width: 18rem;
-    height: 89rem;
+    width: 20rem;
+    height: 98rem;
   }
 }
 /*acá empieza Muestras */

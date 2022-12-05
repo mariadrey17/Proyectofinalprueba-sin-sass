@@ -85,7 +85,9 @@ table {
 ol {
   color: aliceblue;
 }
-
+.tablachica {
+  width: 1400px;
+}
 
 .container-table {
   border: solid 1px blanchedalmond;
@@ -100,12 +102,24 @@ ol {
 
 }
 
+/*Clases para dispositivos medianos*/
+@media screen and (max-width :$pantalla-mediana) 
+{ 
+  .tablachica {
+    width: 516px;
+  }
+  
+}
 
 /*clases para media query pequeños*/
 
 @media screen and (max-width:$pantalla-mobile) {
   .foto-clase {
     width: 300px;
+  }
+
+  .tablachica {
+    width:380px;
   }
 
   .container-table {
