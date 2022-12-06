@@ -152,6 +152,10 @@ h3 {
   }
 }
 /*empieza clases*/
+.style {
+  background-image: linear-gradient to bottom right, #DFDDBC, #BDCDE6, #EBB6BA, #F05677;
+}
+
 table {
   color: #E9DFCB;
 }
