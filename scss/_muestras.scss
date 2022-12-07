@@ -38,13 +38,16 @@
 
 
   .caja-tienda {
-    @include sizes (441px,1640px );
+    @include sizes (441px,1558px );
 
   }
 
   .card-muestra {
     @extend.botones-generales;
   
+  }
+  .caja-art {
+    height:1558 ;
   }
   
   /* media querie para dispositivos moviles medianos muestras*/
@@ -91,12 +94,12 @@
     }
   
     .caja-tienda {
-      @include sizes (318px, 1758px);
+      @include sizes (318px, 1558px);
   
     }
 
     .caja-art {
-      @include sizes (330px, 1616px)
+      @include sizes (330px, 1443px)
     }
   
   
