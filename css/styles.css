@@ -146,6 +146,17 @@ h3 {
 
 .item3 {
   background-image: linear-gradient(to left, #CCCCEB, #EBB6BA, #F05677);
+  animation: movimiento 4s linear infinite alternate;
+  background-size: 200%, 200%;
+  position: relative;
+}
+@keyframes movimiento {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: 100%, 100%;
+  }
 }
 
 /*Inicio para dispositivos medianos */
