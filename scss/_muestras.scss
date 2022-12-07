@@ -12,7 +12,7 @@
   .Item5 {
     display: flex;
     justify-content: center;
-    background-image:linear-gradient( to bottom right, grey 10% ,#545454,#EBB6BA , rgb(226, 96, 117)) ;
+    background-image:linear-gradient( to bottom right, grey 10% ,#545454,#EBB6BA , #F05677) ;
     animation:movimiento 5s linear infinite alternate;
     background-size: 200% , 200%;
     position: relative;
@@ -42,13 +42,16 @@
 
   }
 
+  .caja-art {
+    height:1443px ;
+  }
+  
   .card-muestra {
+    
     @extend.botones-generales;
   
   }
-  .caja-art {
-    height:1443 ;
-  }
+ 
   
   /* media querie para dispositivos moviles medianos muestras*/
   

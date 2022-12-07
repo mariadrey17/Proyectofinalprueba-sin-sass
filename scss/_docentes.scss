@@ -8,7 +8,7 @@
     grid-template-columns: 4, 1fr;
     grid-template-rows: 4, 1fr;
     grid-template-areas: "1 2";
-    @include border (solid, 2px, blanchedalmond);
+    @include border (solid, 2px,#F2EFD0 );
     border: solid 2px rgb(245, 245, 245);
 }
 
@@ -16,7 +16,7 @@
 
 
 h1 {
-    color: blanchedalmond;
+    color:$h1-color;
 }
 
 .foto-profe {
