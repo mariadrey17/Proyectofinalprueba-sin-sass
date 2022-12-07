@@ -28,3 +28,18 @@ p {
     font-size:2rem;
     color:#DBE5F7;
 }
+ /*media query dispositivos medianos*/
+ @media  screen  and (max-width:$pantalla-mediana) {
+    .style {
+        background-image: url(../img/imagen\ mediana.jpg);
+    }
+ }
+
+
+ /*media query dispositivos pequeños*/
+ @media  screen  and (max-width:$pantalla-mobile) {
+ .style {
+    background-image: url(../img/imagenchica.jpg);
+}
+
+}

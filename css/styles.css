@@ -13,6 +13,10 @@ p {
   font-size: 1.5rem;
 }
 
+.style {
+  background-image: url(../img/Diseño\ sin\ título.jpg);
+}
+
 .nav-item :hover {
   color: rgb(252, 69, 99);
   animation-duration: 4s;
@@ -23,10 +27,22 @@ p {
 }
 
 .nav-item {
-  color: #F2EFD0;
   font-size: 2rem;
+  color: #DBE5F7;
 }
 
+/*media query dispositivos medianos*/
+@media screen and (max-width: 768px) {
+  .style {
+    background-image: url(../img/imagen\ mediana.jpg);
+  }
+}
+/*media query dispositivos pequeños*/
+@media screen and (max-width: 460px) {
+  .style {
+    background-image: url(../img/imagenchica.jpg);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -175,10 +191,6 @@ h3 {
   }
 }
 /*empieza docente*/
-.style {
-  background-image: url(../img/Diseño\ sin\ título.jpg);
-}
-
 .docentes {
   display: grid;
   grid-template-columns: 4, 1fr;
