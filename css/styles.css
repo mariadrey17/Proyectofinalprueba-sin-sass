@@ -38,10 +38,6 @@ p {
   .style {
     background-image: url(../img/imagen\ mediana.jpg);
   }
-  .nav-item a {
-    font-size: 2rem;
-    color: #ffe607;
-  }
 }
 /*media query dispositivos pequeños*/
 @media screen and (max-width: 460px) {
@@ -202,12 +198,12 @@ h3 {
   grid-template-columns: 4, 1fr;
   grid-template-rows: 4, 1fr;
   grid-template-areas: "1 2";
-  border: solid 2px blanchedalmond;
+  border: solid 2px #F2EFD0;
   border: solid 2px rgb(245, 245, 245);
 }
 
 h1 {
-  color: blanchedalmond;
+  color: #F7F4D5;
 }
 
 .foto-profe {
@@ -366,7 +362,7 @@ ol {
 .Item5 {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA, rgb(226, 96, 117));
+  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA, #F05677);
   animation: movimiento 5s linear infinite alternate;
   background-size: 200%, 200%;
   position: relative;
