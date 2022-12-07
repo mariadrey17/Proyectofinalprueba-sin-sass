@@ -1,4 +1,11 @@
 /*empieza clases*/
+.style {
+  background-image:linear-gradient (to bottom right ,
+  #DFDDBC, #BDCDE6,
+ #EBB6BA ,
+
+  #F05677);}
+
 
 .tituloclases {
   display: block;
@@ -69,38 +76,42 @@
     overflow: hidden;
  }
   
-
-
-table {
-  color: antiquewhite;
+ table {
+  color:#E9DFCB ;
 }
 
 
 #lista-desordenada {
-  color: aliceblue;
+  color:#FBFAFF ;
   margin-bottom: 100px;
   font-weight: bold;
 }
 
 ol {
-  color: aliceblue;
-}
-.tablachica {
-  width: 1400px;
+  color:#FBFAFF ;
 }
 
+
 .container-table {
-  border: solid 1px blanchedalmond;
+  border: solid 1px #E9DFCB ;
   @include sizes (622px, 1380px);
 
 }
 
 .container-table {
-  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
-
+  background-image: linear-gradient(to right,#3D4045 ,#E6678E );
 
 
 }
+
+.tablachica {
+  width: 1400px;
+}
+
+
+
+
+
 
 /*Clases para dispositivos medianos*/
 @media screen and (max-width :$pantalla-mediana) 
@@ -123,7 +134,7 @@ ol {
   }
 
   .container-table {
-    border: solid 1px blanchedalmond;
+    border: solid 1px #E9DFCB; ;
 
     @include sizes (20rem, 98rem);
   }
@@ -142,3 +153,7 @@ ol {
  
 
 }
+  
+  
+  
+  

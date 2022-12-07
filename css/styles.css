@@ -214,6 +214,10 @@ ol {
   }
 }
 /*empieza clases*/
+.style {
+  background-image: linear-gradient to bottom right, #DFDDBC, #BDCDE6, #EBB6BA, #F05677;
+}
+
 .tituloclases {
   display: block;
   font-family: monospace;
@@ -285,31 +289,31 @@ ol {
 }
 
 table {
-  color: antiquewhite;
+  color: #E9DFCB;
 }
 
 #lista-desordenada {
-  color: aliceblue;
+  color: #FBFAFF;
   margin-bottom: 100px;
   font-weight: bold;
 }
 
 ol {
-  color: aliceblue;
-}
-
-.tablachica {
-  width: 1400px;
+  color: #FBFAFF;
 }
 
 .container-table {
-  border: solid 1px blanchedalmond;
+  border: solid 1px #E9DFCB;
   width: 622px;
   height: 1380px;
 }
 
 .container-table {
-  background-image: linear-gradient(to right, rgb(39, 38, 38), rgb(226, 96, 117));
+  background-image: linear-gradient(to right, #3D4045, #E6678E);
+}
+
+.tablachica {
+  width: 1400px;
 }
 
 /*Clases para dispositivos medianos*/
@@ -327,7 +331,7 @@ ol {
     width: 380px;
   }
   .container-table {
-    border: solid 1px blanchedalmond;
+    border: solid 1px #E9DFCB;
     width: 20rem;
     height: 98rem;
   }
@@ -346,7 +350,18 @@ ol {
 .Item5 {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to left, #CCCCEB, #EBB6BA, #F05677);
+  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA, rgb(226, 96, 117));
+  animation: movimiento 5s linear infinite alternate;
+  background-size: 200%, 200%;
+  position: relative;
+}
+@keyframes movimiento {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: 100%, 100%;
+  }
 }
 
 .galeria {
