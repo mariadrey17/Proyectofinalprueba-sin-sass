@@ -398,7 +398,7 @@ ol {
 }
 
 .caja-art {
-  height: 1558;
+  height: 1443;
 }
 
 /* media querie para dispositivos moviles medianos muestras*/
@@ -426,11 +426,11 @@ ol {
   }
   .caja-tienda {
     width: 318px;
-    height: 1558px;
+    height: 1758px;
   }
   .caja-art {
     width: 330px;
-    height: 1443px;
+    height: 1616px;
   }
   .galeria {
     width: 105px;
