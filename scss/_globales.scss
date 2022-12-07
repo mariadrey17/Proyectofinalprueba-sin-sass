@@ -10,7 +10,9 @@ p {
     font-size:1.5rem;
 }
     
-
+.style {
+    background-image: url(../img/Diseño\ sin\ título.jpg);
+}
      
 .nav-item :hover{
             
@@ -22,7 +24,7 @@ p {
     animation-duration: 14s; 
    }
 
-.nav-item {
-    color:#F2EFD0 ;
-font-size:2rem;
+ .nav-item {
+    font-size:2rem;
+    color:#DBE5F7;
 }
