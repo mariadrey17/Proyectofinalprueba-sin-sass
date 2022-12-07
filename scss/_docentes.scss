@@ -1,52 +1,40 @@
-/*empieza clases*/
+
+/*empieza docente*/
 .style {
-   background-image:linear-gradient (to bottom right ,
-   #DFDDBC, #BDCDE6,
-  #EBB6BA ,
+    background-image: url(../img/Diseño\ sin\ título.jpg);
+}
 
-   #F05677);}
 
-table {
-    color:#E9DFCB ;
-  }
-  
-  
-  #lista-desordenada {
-    color:#FBFAFF ;
-    margin-bottom: 100px;
-    font-weight: bold;
-  }
-  
-  ol {
-    color:#FBFAFF ;
-  }
-  
-  
-  .container-table {
-    border: solid 1px #E9DFCB ;
-    @include sizes (622px, 1380px);
-  
-  }
-  
-  .container-table {
-    background-image: linear-gradient(to right,#3D4045 ,#E6678E );
-  
-  
-  
-  }
-  
-  
-  /*clases para media query pequeños*/
-  
-  @media screen and (max-width:$pantalla-mobile) {
-    .foto-clase {
-      width: 300px;
+.docentes {
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    grid-template-rows: 4, 1fr;
+    grid-template-areas: "1 2";
+    @include border (solid, 2px, blanchedalmond);
+    border: solid 2px rgb(245, 245, 245);
+}
+
+
+
+
+h1 {
+    color: blanchedalmond;
+}
+
+.foto-profe {
+
+    @include sizes (12rem, 12rem);
+
+}
+
+/*Docentes Media query dispositivos pequeños*/
+
+
+
+@media screen and (max-width :$pantalla-mobile) {
+
+    .docentes {
+         @include flex-column;
+
     }
-  
-    .container-table {
-      border: solid 1px #E9DFCB;
-  
-      @include sizes (25rem, 89rem);
-    }
-  
-  }
+}
