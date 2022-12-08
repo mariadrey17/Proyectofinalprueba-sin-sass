@@ -359,10 +359,16 @@ ol {
   display: grid;
 }
 
+.Item4 {
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: 2, 1fr;
+  grid-template-areas: "card-foto 1  card_foto 2" "card-foto 3   card_foto 4    card-foto 5";
+}
+
 .Item5 {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA, #F05677);
+  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA, rgb(226, 96, 117));
   animation: movimiento 5s linear infinite alternate;
   background-size: 200%, 200%;
   position: relative;
@@ -376,8 +382,8 @@ ol {
   }
 }
 
+/*puedo hacer algo con grid en galeria*/
 .galeria {
-  /*puedo hacer algo con grid en galeria*/
   display: flex;
   flex-direction: column;
   width: 536px;
@@ -390,11 +396,7 @@ ol {
 
 .caja-tienda {
   width: 441px;
-  height: 1558px;
-}
-
-.caja-art {
-  height: 1443px;
+  height: 1640px;
 }
 
 /* media querie para dispositivos moviles medianos muestras*/
