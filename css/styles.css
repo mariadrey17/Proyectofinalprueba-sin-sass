@@ -401,7 +401,7 @@ ol {
 
 .list-group-item {
   background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA);
-  height: 468px;
+  height: 399px;
 }
 
 /* media querie para dispositivos moviles medianos muestras*/
@@ -412,9 +412,6 @@ ol {
   .caja-tienda {
     width: 441px;
     height: 1556px;
-  }
-  .list-group-item {
-    height: 441px;
   }
 }
 /*media querie para dispositivos pequeños muestras  */
@@ -431,6 +428,12 @@ ol {
   .caja-tienda {
     width: 318px;
     height: 1706px;
+  }
+  .list-group-brush {
+    height: 1530px;
+  }
+  .list-group-item {
+    height: 474px;
   }
   .galeria {
     width: 105px;
