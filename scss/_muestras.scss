@@ -68,8 +68,14 @@
   
   
     }
+    .caja-tienda {
+      @include sizes (441px,1556px );
   
+    }
   
+  .caja-art {
+    height:405px;
+  }
   
   }
   
@@ -85,39 +91,26 @@
       margin-right:1rem ;
     }
   
+    .tienda {
 
-    
-  .tienda {
-
-    @include sizes (318px, 2000px);
-
-    margin-top: 10px;
-
-  }
-
-
-
-  .caja-tienda {
-    @include sizes (318px, 2420px);
-
-  }
+      @include sizes (318px, 2000px);
   
+      margin-top: 10px;
   
-  
-   
-
-    .caja-art {
-      @include sizes (314px, 1616px)
     }
   
     .card-muestra {
-      @include sizes (272px, 661px);
+      @include sizes (272px, 659px);
   
       padding: 1rem;
       margin-bottom: 5rem;
   
     }
   
+    .caja-tienda {
+      @include sizes (318px, 2328px);
+  
+    }
     .galeria {
       width: 105px;
       height: 106px;

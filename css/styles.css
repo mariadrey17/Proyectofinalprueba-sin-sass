@@ -404,6 +404,13 @@ ol {
   .galeria {
     width: 348px;
   }
+  .caja-tienda {
+    width: 441px;
+    height: 1556px;
+  }
+  .caja-art {
+    height: 405px;
+  }
 }
 /*media querie para dispositivos pequeños muestras  */
 /*tienda*/
@@ -417,18 +424,14 @@ ol {
     margin-top: 10px;
   }
   .card-muestra {
-    width: 197px;
-    height: 469px;
+    width: 272px;
+    height: 659px;
     padding: 1rem;
     margin-bottom: 5rem;
   }
   .caja-tienda {
     width: 318px;
-    height: 1758px;
-  }
-  .caja-art {
-    width: 301px;
-    height: 1616px;
+    height: 2328px;
   }
   .galeria {
     width: 105px;
