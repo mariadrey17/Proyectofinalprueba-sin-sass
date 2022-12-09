@@ -427,13 +427,17 @@ ol {
   }
   .caja-tienda {
     width: 318px;
-    height: 1706px;
+    height: 91px;
   }
-  .list-group-brush {
-    height: 1600px;
+  .list-group-flush {
+    height: 1000px;
   }
   .list-group-item {
     height: 469px;
+  }
+  .Item5 {
+    width: 26rem;
+    height: 107rem;
   }
   .galeria {
     width: 105px;

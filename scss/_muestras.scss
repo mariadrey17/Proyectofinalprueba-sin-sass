@@ -99,23 +99,23 @@
       margin-top: 10px;
   
     }
-  
+    
   
   
     .caja-tienda {
-      @include sizes (318px, 1706px);
+      @include sizes (318px, 91px);
   
     }
-    .list-group-brush {
-    
-      height: 1600px;
-  
+ 
+    .list-group-flush{
+      height: 1000px ;
     }
     .list-group-item {
       height: 469px;
     }
     .Item5 {
-      height:1500px;
+      width:26rem ;
+      height:107rem;
       }
    
     .galeria {
