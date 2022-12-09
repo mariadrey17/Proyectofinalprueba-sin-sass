@@ -54,8 +54,10 @@
 
   }
 
-  .card-muestra {
+  .list-group-item {
+    background-image: linear-gradient( to bottom right, grey 10% ,#545454,#EBB6BA);
     @extend.botones-generales;
+    height: 468px;
   
   }
   
@@ -73,9 +75,9 @@
   
     }
   
-  .caja-art {
-    height:405px;
-  }
+    .list-group-item {
+      height: 441px;
+    }
   
   }
   
@@ -99,16 +101,10 @@
   
     }
   
-    .card-muestra {
-      @include sizes (272px, 659px);
   
-      padding: 1rem;
-      margin-bottom: 5rem;
-  
-    }
   
     .caja-tienda {
-      @include sizes (318px, 2328px);
+      @include sizes (318px, 1706px);
   
     }
     .galeria {

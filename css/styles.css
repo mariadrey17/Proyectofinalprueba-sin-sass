@@ -4,7 +4,7 @@
 /*condicional*/
 /*separacion operaciones*/
 /*extends*/
-.botones-generales, .boton, .card-muestra {
+.botones-generales, .boton, .list-group-item {
   padding: 1rem;
   margin-bottom: 5rem;
 }
@@ -399,6 +399,11 @@ ol {
   height: 1640px;
 }
 
+.list-group-item {
+  background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA);
+  height: 468px;
+}
+
 /* media querie para dispositivos moviles medianos muestras*/
 @media screen and (max-width: 768px) {
   .galeria {
@@ -408,8 +413,8 @@ ol {
     width: 441px;
     height: 1556px;
   }
-  .caja-art {
-    height: 405px;
+  .list-group-item {
+    height: 441px;
   }
 }
 /*media querie para dispositivos pequeños muestras  */
@@ -423,15 +428,9 @@ ol {
     height: 2000px;
     margin-top: 10px;
   }
-  .card-muestra {
-    width: 272px;
-    height: 659px;
-    padding: 1rem;
-    margin-bottom: 5rem;
-  }
   .caja-tienda {
     width: 318px;
-    height: 2328px;
+    height: 1706px;
   }
   .galeria {
     width: 105px;
