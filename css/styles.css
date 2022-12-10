@@ -391,6 +391,9 @@ ol {
   animation: movimiento 5s linear infinite alternate;
   background-size: 200%, 200%;
   position: relative;
+  box-shadow: 0px 2px 10px pink;
+  cursor: default;
+  transition: all 400ms ease;
 }
 @keyframes movimiento {
   from {
@@ -421,6 +424,18 @@ h6.card_parrafo--grande {
 .caja-tienda {
   width: 441px;
   height: 1640px;
+  margin-bottom: 4rem;
+}
+
+.list-group-flush {
+  box-shadow: 0px 2px 10px pink;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.list-group-flush :hover {
+  box-shadow: 5px 5px 20px pink;
+  transform: translateY(-1%);
 }
 
 .list-group-item {
