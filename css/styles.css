@@ -500,6 +500,14 @@ h6.card_parrafo--grande {
 
 .caja-flex {
   display: flex;
+  box-shadow: 0px 2px 10px pink;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.caja-flex :hover {
+  box-shadow: 5px 5px 20px pink;
+  transform: translateY(-3%);
 }
 
 .adulg {
