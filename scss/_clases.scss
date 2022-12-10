@@ -27,20 +27,34 @@
     white-space: nowrap;
     border-right: 4px solid;
     width:12ch;
-    animation:typing 10s steps(12), blink .5s infinite step-end alternate;
+    animation:typing 10s steps(12), blink .3s infinite step-end alternate;
     overflow: hidden;
   }
 
-  .titulodisciplinas {  
+
+  
+  .titulodisciplinas1 {  
     display: block;
     font-family:monospace;
     white-space: nowrap;
     border-right: 4px solid;
-    width:44ch;
-    animation:typing 12s steps(44), blink .5s infinite step-end alternate;
+    width:22ch;
+    animation:typing 10s steps(22), blink .3s infinite step-end alternate;
+    overflow: hidden; 
+
+
+  }
+  .titulodisciplinas2{
+    display: block;
+    font-family:monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width:23ch;
+    animation:typing 10s steps(23), blink .5s infinite step-end alternate;
     overflow: hidden;
 
   }
+
   .titulootroscursos {
     display: block;
     font-family:monospace;
