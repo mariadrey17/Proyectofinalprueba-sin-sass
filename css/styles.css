@@ -10,7 +10,16 @@
 }
 
 p {
+  color: #DBE5F7;
   font-size: 1.5rem;
+}
+
+h5 {
+  color: #DBE5F7;
+}
+
+h6 {
+  color: #DBE5F7;
 }
 
 .style {
