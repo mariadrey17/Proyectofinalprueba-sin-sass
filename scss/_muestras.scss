@@ -47,7 +47,11 @@
   .h2tienda {
     margin-right:5rem ;
   }
-
+  h6.card_parrafo--grande {
+    color: #DBE5F7;
+    font-size: 1.5rem;
+    
+  }
 
   .caja-tienda {
     @include sizes (441px,1640px );

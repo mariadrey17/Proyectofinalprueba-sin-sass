@@ -403,6 +403,11 @@ ol {
   margin-right: 5rem;
 }
 
+h6.card_parrafo--grande {
+  color: #DBE5F7;
+  font-size: 1.5rem;
+}
+
 .caja-tienda {
   width: 441px;
   height: 1640px;
