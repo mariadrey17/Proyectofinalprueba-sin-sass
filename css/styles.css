@@ -252,6 +252,10 @@ h1 {
   height: 12rem;
 }
 
+.titulo-profe1 {
+  text-align: end;
+}
+
 /*Docentes Media query dispositivos pequeños*/
 @media screen and (max-width: 460px) {
   .docentes {
