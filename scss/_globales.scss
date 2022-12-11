@@ -46,15 +46,35 @@ h6 {
     .style {
         background-image: url(../img/imagen\ mediana.jpg);
     }
+   
+        
+    .navbar-toggler {
+        color: aliceblue;
+        border: solid 2px white;
+        border-color:solid 2px  rgb(245, 242, 242);
+      }
+      .navbar-toggler-icon{
+        background-color:white ;
+      }
+    }
+
 
   
- }
+ 
 
 
  /*media query dispositivos pequeños*/
  @media  screen  and (max-width:$pantalla-mobile) {
  .style {
     background-image: url(../img/imagenchica.jpg);
+}
+
+  
+.navbar-toggler-icon{
+    color:#DBE5F7;
+}
+button.collapse navbar-collapse {
+    color:#DBE5F7;
 }
 
 }

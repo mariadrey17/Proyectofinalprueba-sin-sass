@@ -47,11 +47,23 @@ h6 {
   .style {
     background-image: url(../img/imagen\ mediana.jpg);
   }
+  .navbar-toggler-icon {
+    color: #DBE5F7;
+  }
+  button.collapse navbar-collapse {
+    color: #DBE5F7;
+  }
 }
 /*media query dispositivos pequeños*/
 @media screen and (max-width: 460px) {
   .style {
     background-image: url(../img/imagenchica.jpg);
+  }
+  .navbar-toggler-icon {
+    color: #DBE5F7;
+  }
+  button.collapse navbar-collapse {
+    color: #DBE5F7;
   }
 }
 * {
@@ -144,8 +156,8 @@ h3 {
   }
 }
 .video-escuela {
-  width: 800px;
-  height: 600px;
+  width: 100%;
+  height: 735px;
 }
 
 .grid div {
@@ -188,17 +200,20 @@ h3 {
 }
 
 /*Inicio para dispositivos medianos */
+/*Index dispositivos medianos*/
+.nav-toggler {
+  color: aliceblue;
+}
+
 @media screen and (max-width: 768px) {
   .video-escuela {
-    width: 400px;
-    height: 300px;
+    height: 437px;
   }
 }
-/*Inicio dispositivos pequeños*/
+/*Index dispositivos pequeños*/
 @media screen and (max-width: 460px) {
   .video-escuela {
-    width: 350px;
-    height: 300px;
+    height: 282px;
   }
 }
 /*empieza docente*/

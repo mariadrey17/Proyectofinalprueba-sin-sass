@@ -48,10 +48,10 @@ h3 {
 }
 
 .video-escuela {
-  @include sizes (800px, 600px);
+  @include sizes (100%, 735px);
+  
 
-}
-
+ }
 
 
 
@@ -96,18 +96,28 @@ h3 {
 
 /*Inicio para dispositivos medianos */
 
-@media screen and (max-width:$pantalla-mediana) {
-  .video-escuela {
-    @include sizes (400px, 300px);
+ /*Index dispositivos medianos*/
+  
+ .nav-toggler {
+  color: aliceblue;
+ }
 
-  }
+@media screen and (max-width:$pantalla-mediana) 
+{
+.video-escuela {
+
+height:437px;
 }
 
-/*Inicio dispositivos pequeños*/
-@media screen and (max-width:$pantalla-mobile) {
-  .video-escuela {
-    @include sizes (350px, 300px);
+}  
 
+/*Index dispositivos pequeños*/
+
+@media screen and (max-width:$pantalla-mobile) 
+{
+.video-escuela {
+  
+  height:282px;
   }
-
-}
+ 
+}  
