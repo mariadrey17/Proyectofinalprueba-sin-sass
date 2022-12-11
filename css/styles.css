@@ -253,7 +253,11 @@ h1 {
 }
 
 .titulo-profe1 {
-  text-align: justify;
+  text-align: start;
+}
+
+.titulo-profe2 {
+  text-align: end;
 }
 
 /*Docentes Media query dispositivos pequeños*/
