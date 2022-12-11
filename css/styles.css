@@ -522,8 +522,12 @@ h6.card_parrafo--grande {
   }
 }
 /*Acá empieza contactos*/
+.carousel-slide {
+  animation-duration: 2s;
+}
+
 .carousel-inner {
-  width: 65%;
+  width: 100%;
 }
 
 .caja-mala {
@@ -568,18 +572,18 @@ h6.card_parrafo--grande {
 
 div {
   margin-top: 50px;
-  color: antiquewhite;
+  color: rgb(230, 230, 174);
   font-weight: bolder;
 }
 
 .card_parrafo {
   font-size: 1rem;
   margin-bottom: 2rem;
-  color: rgb(82, 82, 82);
+  color: #5E646B;
 }
 
 .card_parrafo--grande {
-  color: rgb(82, 82, 82);
+  color: #5E646B;
 }
 
 .card_image {
@@ -669,9 +673,6 @@ form {
 
 /*media querie para dispositivos pequeños contacto */
 @media screen and (max-width: 460px) {
-  .carousel-inner {
-    width: 79%;
-  }
   .caja-flex {
     display: flex;
     flex-direction: column;

@@ -1,8 +1,14 @@
 /*Acá empieza contactos*/
+
+
+.carousel-slide {
+  animation-duration:2s ;
+}
 .carousel-inner {
-    width: 65%;
+    width: 100%;
   
   }
+
   
   
   .caja-mala {
@@ -58,7 +64,7 @@
   div {
   
     margin-top: 50px;
-    color: antiquewhite;
+    color:$p-color ;
     font-weight: bolder;
   }
   
@@ -66,12 +72,12 @@
   .card_parrafo {
     font-size: 1rem;
     margin-bottom: 2rem;
-    color: rgb(82, 82, 82);
+    color: $bg-body;
   
   }
   
   .card_parrafo--grande {
-    color: rgb(82, 82, 82);
+    color:$bg-body;
   }
   
   
@@ -104,6 +110,10 @@
     justify-content: space-evenly;
     align-items: center;
   
+  }
+
+  #escribe-formulario {
+    text-align: center;
   }
   
   
@@ -192,10 +202,7 @@
   /*media querie para dispositivos pequeños contacto */
   
   @media screen and (max-width:$pantalla-mobile) {
-    .carousel-inner {
-      width: 79%;
-  
-    }
+   
   
     .caja-flex {
       @include flex-column;
