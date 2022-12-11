@@ -54,6 +54,9 @@ h3 {
  }
 
 
+ .info-escuela {
+  text-align: center;
+}
 
 
 .grid div {
@@ -94,7 +97,22 @@ h3 {
 }
 
 
-/*Inicio para dispositivos medianos */
+.d-block {
+  @include flex-column;
+align-items: center;
+color: #DBE5F7;
+}
+.redes {
+  @include flex-column;
+  align-items: center;
+    
+  text-align: center;
+  margin-bottom:3rem ;
+}
+
+
+
+
 
  /*Index dispositivos medianos*/
   
