@@ -47,11 +47,14 @@ h6 {
   .style {
     background-image: url(../img/imagen\ mediana.jpg);
   }
-  .navbar-toggler-icon {
-    color: #DBE5F7;
+  .navbar-toggler {
+    color: aliceblue;
+    border: solid 2px white;
+    border-color: solid 2px rgb(245, 242, 242);
   }
-  button.collapse navbar-collapse {
-    color: #DBE5F7;
+  .navbar-toggler-icon {
+    background-color: white;
+    border-color: solid 2px rgb(245, 242, 242);
   }
 }
 /*media query dispositivos pequeños*/
@@ -83,16 +86,6 @@ footer {
   color: rgb(230, 230, 174);
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    background-color: #F05677;
-  }
-}
-@media screen and (max-width: 460px) {
-  body {
-    background-color: #881D2F;
-  }
-}
 header {
   background-image: url(../img/fondo.jpg);
   background-size: cover;
@@ -160,6 +153,10 @@ h3 {
   height: 735px;
 }
 
+.info-escuela {
+  text-align: center;
+}
+
 .grid div {
   border: solid 2px rgb(245, 245, 245);
 }
@@ -199,7 +196,30 @@ h3 {
   }
 }
 
-/*Inicio para dispositivos medianos */
+.linkredes {
+  color: #DBE5F7;
+  text-decoration: none;
+}
+
+.d-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #DBE5F7;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.spotify {
+  background-color: #42B894;
+}
+
 /*Index dispositivos medianos*/
 .nav-toggler {
   color: aliceblue;
@@ -406,7 +426,7 @@ ol {
   animation: movimiento 5s linear infinite alternate;
   background-size: 200%, 200%;
   position: relative;
-  box-shadow: 0px 2px 10px pink;
+  box-shadow: 0px 2px 10px #F4B2BA;
   cursor: default;
   transition: all 400ms ease;
 }
@@ -443,13 +463,13 @@ h6.card_parrafo--grande {
 }
 
 .list-group-flush {
-  box-shadow: 0px 2px 10px pink;
+  box-shadow: 0px 2px 10px #F4B2BA;
   cursor: default;
   transition: all 400ms ease;
 }
 
 .list-group-flush :hover {
-  box-shadow: 5px 5px 20px pink;
+  box-shadow: 5px 5px 20px #F4B2BA;
   transform: translateY(-1%);
 }
 
@@ -530,18 +550,18 @@ h6.card_parrafo--grande {
 
 .caja-flex {
   display: flex;
-  box-shadow: 0px 2px 10px pink;
+  box-shadow: 0px 2px 10px #F4B2BA;
   cursor: default;
   transition: all 400ms ease;
 }
 
 .caja-flex :hover {
-  box-shadow: 5px 5px 20px pink;
+  box-shadow: 5px 5px 20px #F4B2BA;
   transform: translateY(-3%);
 }
 
 .adulg {
-  border: solid 1rem pink;
+  border: solid 1rem #F4B2BA;
   width: 20rem;
   padding: 2rem;
   position: relative;
@@ -572,8 +592,8 @@ div {
   margin-top: 2rem;
 }
 
-footer {
-  color: antiquewhite;
+.footer {
+  color: rgb(230, 230, 174);
 }
 
 form {

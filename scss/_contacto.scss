@@ -35,17 +35,17 @@
   
   .caja-flex {
     display: flex;
-    box-shadow: 0px 2px 10px pink ;
+    box-shadow: 0px 2px 10px#F4B2BA  ;
     cursor:default;
     transition: all 400ms ease;
   }
   .caja-flex :hover {
-    box-shadow: 5px 5px 20px pink ;
+    box-shadow: 5px 5px 20px #F4B2BA;
     transform: translateY(-3%);
    }
   
   .adulg {
-    @include border (solid, 1rem, pink);
+    @include border (solid, 1rem, #F4B2BA);
   
     width: 20rem;
     padding: 2rem;
@@ -91,9 +91,9 @@
   }
   
   
-  footer {
-    color: antiquewhite;
-  }
+ .footer {
+  color:$p-color;
+ }
   
   
   

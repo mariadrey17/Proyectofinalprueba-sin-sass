@@ -95,7 +95,10 @@ h3 {
  to  {background-position:100%,100%; }
 }
 }
-
+.linkredes {
+  color: #DBE5F7;
+  text-decoration: none;
+}
 
 .d-block {
   @include flex-column;
@@ -111,7 +114,9 @@ color: #DBE5F7;
 }
 
 
-
+.spotify {
+  background-color:#42B894 ;
+}
 
 
  /*Index dispositivos medianos*/

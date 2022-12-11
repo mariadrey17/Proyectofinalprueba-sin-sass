@@ -26,7 +26,7 @@
     animation:movimiento 5s linear infinite alternate;
     background-size: 200% , 200%;
     position: relative;
-    box-shadow: 0px 2px 10px pink ;
+    box-shadow: 0px 2px 10px #F4B2BA ;
     cursor:default;
     transition: all 400ms ease;
   
@@ -63,12 +63,12 @@
   }
 
   .list-group-flush {
-    box-shadow: 0px 2px 10px pink ;
+    box-shadow: 0px 2px 10px #F4B2BA ;
     cursor:default;
     transition: all 400ms ease;
   }
  .list-group-flush :hover {
-  box-shadow: 5px 5px 20px pink ;
+  box-shadow: 5px 5px 20px  #F4B2BA ;
   transform: translateY(-1%);
  }
 
