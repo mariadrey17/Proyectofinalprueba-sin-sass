@@ -48,13 +48,13 @@ h6 {
     background-image: url(../img/imagen\ mediana.jpg);
   }
   .navbar-toggler {
-    color: aliceblue;
-    border: solid 2px white;
-    border-color: solid 2px rgb(245, 242, 242);
+    color: #DBE5F7;
+    border: solid 2px #DBE5F7;
+    border-color: solid 2px #DBE5F7;
   }
   .navbar-toggler-icon {
-    background-color: white;
-    border-color: solid 2px rgb(245, 242, 242);
+    background-color: #DBE5F7;
+    border-color: solid 2px #DBE5F7;
   }
 }
 /*media query dispositivos pequeños*/
@@ -214,10 +214,6 @@ h3 {
   align-items: center;
   text-align: center;
   margin-bottom: 3rem;
-}
-
-.spotify {
-  background-color: #42B894;
 }
 
 /*Index dispositivos medianos*/
@@ -475,7 +471,7 @@ h6.card_parrafo--grande {
 
 .list-group-item {
   background-image: linear-gradient(to bottom right, grey 10%, #545454, #EBB6BA);
-  height: 399px;
+  height: 459px;
 }
 
 /* media querie para dispositivos moviles medianos muestras*/
@@ -486,6 +482,9 @@ h6.card_parrafo--grande {
   .caja-tienda {
     width: 441px;
     height: 1556px;
+  }
+  .list-group-item {
+    height: 431px;
   }
 }
 /*media querie para dispositivos pequeños muestras  */
@@ -616,10 +615,11 @@ form {
 }
 
 .boton-comunicacion {
-  background-color: rgb(224, 104, 124);
-  color: rgb(59, 58, 58);
+  background-color: #CC4991;
+  color: #DBE5F7;
   font-weight: bold;
   padding: 5px 15px;
+  text-decoration: none;
 }
 
 .comunicacion {
