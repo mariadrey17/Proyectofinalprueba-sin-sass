@@ -252,11 +252,11 @@ h1 {
   height: 12rem;
 }
 
-.titulo-profe1 {
+.titulo-profe1 h2 {
   text-align: start;
 }
 
-.titulo-profe2 {
+.titulo-profe2 h2 {
   text-align: end;
 }
 
