@@ -102,10 +102,24 @@ ol {
   color:#FBFAFF ;
 }
 
+.container-table-1 {
+  border: solid 1px #E9DFCB ;
+  @include sizes (622px, 1282px);
+  background-image: linear-gradient(to right,#3D4045 ,#E6678E );
+  animation:movimiento 5s linear infinite alternate;
+  background-size: 200% , 200%;
+  position: relative;
+
+@keyframes movimiento{
+  from  { background-position: 0,0;
+  }
+ to  {background-position:100%,100%; }
+}
+}
 
 .container-table {
   border: solid 1px #E9DFCB ;
-  @include sizes (622px, 1380px);
+  @include sizes (622px, 1282px);
 
 }
 
@@ -152,11 +166,15 @@ ol {
   .tablachica {
     width:340px;
   }
-
+ 
+  .container-table-1 {
+    @include sizes ( 20rem,68rem);
+   
+  }
   .container-table {
     border: solid 1px #E9DFCB; ;
 
-    @include sizes (20rem, 98rem);
+    @include sizes (20rem, 84rem);
   }
 
 
