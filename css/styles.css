@@ -260,11 +260,20 @@ h1 {
   text-align: end;
 }
 
+/*Docentes Media query dispositivos medianos*/
+@media screen and (max-width: 768px) {
+  .docentes {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+  }
+}
 /*Docentes Media query dispositivos pequeños*/
 @media screen and (max-width: 460px) {
   .docentes {
     display: flex;
     flex-direction: column;
+    font-size: 0.5rem;
   }
 }
 /*empieza clases*/
