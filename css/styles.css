@@ -523,7 +523,7 @@ h6.card_parrafo--grande {
 }
 /*Acá empieza contactos*/
 .carousel-slide {
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .carousel-inner {
@@ -531,7 +531,7 @@ h6.card_parrafo--grande {
 }
 
 .caja-mala {
-  border: solid 0.2rem pink;
+  border: solid 0.2rem #F4B2BA;
   padding: 4rem;
   display: inline-block;
   font-size: 1.6rem;
@@ -543,7 +543,7 @@ h6.card_parrafo--grande {
 }
 
 .card {
-  border: solid 1rem pink;
+  border: solid 1rem #F4B2BA;
   background-color: #E69867;
   width: 20rem;
   padding: 2rem;
@@ -607,6 +607,10 @@ form {
   align-items: center;
 }
 
+#escribe-formulario {
+  text-align: center;
+}
+
 .contenedor-opciones {
   display: flex;
   flex-direction: column;
@@ -631,8 +635,8 @@ form {
   font-family: monospace;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 9ch;
-  animation: typing 3s steps(9), blink 0.5s infinite step-end alternate;
+  width: 10ch;
+  animation: typing 8s steps(10), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
