@@ -1,6 +1,8 @@
 /*empieza clases*/
 
-
+.foto-clase {
+  width: 100%;
+}
 
 .tituloclases {
   display: block;
@@ -145,9 +147,7 @@ ol {
 @media screen and (max-width:$pantalla-mobile) {
 
  
-  .foto-clase {
-    width: 300px;
-  }
+  
 
   .tablachica {
     width:340px;

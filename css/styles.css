@@ -259,6 +259,10 @@ h1 {
   }
 }
 /*empieza clases*/
+.foto-clase {
+  width: 100%;
+}
+
 .tituloclases {
   display: block;
   font-family: monospace;
@@ -386,9 +390,6 @@ ol {
 }
 /*clases para media query pequeños*/
 @media screen and (max-width: 460px) {
-  .foto-clase {
-    width: 300px;
-  }
   .tablachica {
     width: 340px;
   }
